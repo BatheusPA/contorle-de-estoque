@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Prova 1B</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!--Linkando o arquivo com a estilização em CSS-->
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+
+<body>
+    <h1>Mercadinho do seu Araujo</h1>
+    <!--Uma background Image pegando a imagem por pelo seu link-->
+    <STYLE TYPE="text/css">
+        body {background-image: url(https://media-manager.noticiasaominuto.com.br/1920/1509535938/naom_5887d36f5eace.jpg); }
+    </STYLE>
+    <!--ultilizando o placeholder para que seja exibido um texto no local do input sinalizando para o usuario qual informação ele deve inserir-->
+    <div id="wrap">
+        <input type="text" placeholder="Nome:">
+        <input type="number" placeholder="Quantidade">
+        <input type="text" placeholder="Codigo do produto">
+
+    </div>
+    <!--Botões de cadastro e excluir-->
+    <div id="botoes">
+        <button>Cadastrar</button>
+        <button>Excluir</button>
+    </div>
+    <!--configuração da table atribuindo um id para a div e configurando o formato da lista de saida-->
+    <div id="saida">
+        |<table border="0" width="100%" height="5%">
+            <tr>
+                <td width="30px">
+                </td>
+                <td>
+                    Nome
+                </td>
+                <td>
+                    Quantidade
+                </td>
+                <td>
+                    codigo
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!--Linkando o arquivo contendo os scrips em JavaScript-->
+    <script src="main.js"></script>
+</body>
+</html>
+
+<!--
+Fontes ulrilizados:
+https://web.fe.up.pt/~goii2000/M8/background.htm#:~:text=Cor%20de%20fundo%20de%20uma,cor%20que%20se%20pretende%20utilizar.
+https://www.devmedia.com.br/placeholder-em-html5-texto-padrao-de-input/24503
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/table
+
+-->
